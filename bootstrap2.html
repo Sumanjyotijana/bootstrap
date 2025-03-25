@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <style>
+            
+            body {
+                background-color: aqua;
+            }
+            
+            .container,
+            .container-fluid {
+                background-color: rgb(104, 71, 86);
+                padding: 2em;
+            
+            }
+            .panel {
+                border-radius: 0.3rem;
+                /* padding: 1rem; */
+                margin-bottom: 1px;
+            }
+            
+            .panel.panel-blue {
+                border: 1px solid rgb(181, 22, 181);
+                background-color: rgb(75, 71, 86);
+                color: rgb(132, 132, 149);
+            }
+            .panel.panel-pink{
+                border: 1px solid rgb(30, 35, 104);
+                background-color: rgb(43, 226, 119);
+                color: rgb(26, 26, 67);
+            }
+            .panel.panel-yellow {
+                border: 1px solid rgb(143, 22, 30);
+                background-color: rgb(114, 120, 116);
+                color: rgb(132, 132, 149);
+            }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="py-5">
+        <div class="container">I am a container</div>
+        <div class="container-fluid my-4" >i am a full width container</div>
+    </div>
+
+    <!-- 12thgrid design -->
+     <div class="container bg-light">
+        <div class="row">
+            <div class="col">
+                <div class="panel panel-blue">1st</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">2nd</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">3rd</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">4th</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">5th</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">6th</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">7th</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">8th</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">9th</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">10th</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">11th</div>
+                </div>
+            <div class="col">
+                <div class="panel panel-blue">12th</div>
+                </div>
+            </div>
+        </div>
+        <div class="cotainer bg-light">
+            <div class="row">
+                <div class="col sm-6 md-6 lg-10 xl-10 xxl-12 bg panel-pink">This is col -3</div>
+                <div class="col sm-6 md-6 lg-10 xl-10 xxl-12 bg panel-pink">This is col -3</div>
+                <div class="col sm-6 md-6 lg-10 xl-10 xxl-12 bg panel-pink">This is col -3</div>
+                <div class="col sm-6 md-6 lg-10 xl-10 xxl-12 bg panel-pink">This is col -3</div>
+            </div>
+        </div>
+        <div class="container bg-light">
+            <div class="row">
+                <div class="col-3 offset panel-yellow">this is 3</div>
+                <div class="col-9 panel panel-yellow">this is 9</div>
+            </div>
+        </div>
+        <!-- nesting -->
+         <div class="container bg-pink">
+            <div class="row">
+                <div class="col-12 panel panel-pink">I am a big column</div>
+            </div>
+            <div class="row">
+                <div class="col-4 panel panel-pink">This is col -4</div>
+                <div class="col-4 panel panel-pink">This is col -4</div>
+                <div class="col-4 panel panel-pink">This is col -4</div>
+                
+            </div>
+
+         </div>
+         <div class="container bg-light"> 
+            <div class="row">
+              <div class="col-12 panel panel-yellow">
+                This is the bigger column
+                <div class="row">
+                  <div class="col-4 panel panel-yellow">this is col -4</div>
+                  <div class="col-4 panel panel-yellow">this is col -4</div>
+                  <div class="col-4 panel panel-yellow">this is col -4</div>
+                </div>
+              </div>
+            </div>
+        
+     </div>
+
+     
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
